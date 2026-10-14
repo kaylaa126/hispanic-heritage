@@ -4,16 +4,25 @@ body {
 
 #header {
   background-color: rgb(117, 19, 19); 
- height: 60px; width: 90%;
- color: rgb(245, 242, 241); 
- text-align: left; 
- font-size: 35px;
-padding: 20px;
-padding-bottom: 40px;
+  height: 60px; width: 90%;
+  color: rgb(245, 242, 241); 
+  text-align: left; 
+  font-size: 35px;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+span { 
+  color: rgb(245, 242, 241);
+  font-size: 23px;
+  padding: 20px;
+  border: 8px dotted rgb(117, 19, 19);
+  display: flex;
+  gap: 30px 70px;
 }
 
 h3 {
- color: rgb(0, 0, 0); 
+ color: rgb(245, 242, 241); 
  text-align: left; 
  font-size: 27px; 
 }
@@ -21,14 +30,28 @@ h3 {
 .paragraph1 {
   background-color: rgb(245, 242, 241);
   color: rgb(165, 46, 46);
-  font-size: 20px;
+  font-size: 21px;
   padding: 10px;
-font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif;
+  border-style: double; border-width: 10px; border-radius: 0px;
 }
 
-span { 
-  color: rgb(245, 242, 241);
-  font-size: 23px;
- padding: 20px;
-  border: 8px dotted rgb(117, 19, 19);
+#header2 {
+  background-color: rgb(117, 19, 19); 
+  height: 60px; width: 90%;
+  color: rgb(245, 242, 241); 
+  text-align: left; 
+  font-size: 35px;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+.list {
+  list-style-type: none;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(25, 80, 9); background-color: rgb(245, 242, 241);
+  padding: 10px; padding-top: 30px; padding-bottom: 30px; padding-left: 30px; 
+  font-size: 22px;
+  text-align: left;
+  border-style: double; border-width: 12px; border-radius: 0px;
 }
